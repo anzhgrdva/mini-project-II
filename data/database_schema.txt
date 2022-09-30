@@ -1,0 +1,21 @@
+CREATE TABLE IF NOT EXISTS "foursquare_raiting" (
+"rating" REAL,
+  "name" TEXT,
+  "address" TEXT,
+  "distance_in_meters" INTEGER,
+  "review_count" INTEGER
+);
+CREATE TABLE IF NOT EXISTS "yelp_raiting" (
+"rating" REAL,
+  "name" TEXT,
+  "address" TEXT,
+  "distance_in_meters" INTEGER,
+  "review_count" INTEGER
+);
+CREATE TABLE IF NOT EXISTS "google_raiting" (
+"rating" REAL,
+  "name" TEXT,
+  "address" TEXT,
+  "distance_in_meters" INTEGER,
+  "review_count" INTEGER
+);
